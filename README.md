@@ -63,7 +63,7 @@ Signup Page (error if user already exists)
 Name,Email and Password(Hashed) stored in MongoDB
 
 ![Task Screenshot](frontend/src/images/task1IMG4.png)
-Tasks stored in MongoDB with thier Title, Desc., Status, Creation & Updation (Date & Time)
+                  Tasks stored in MongoDB with thier Title, Desc., Status, Creation & Updation (Date & Time)
 
 ## 📁 Project Structure
 ```
