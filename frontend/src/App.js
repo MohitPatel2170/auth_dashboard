@@ -3,8 +3,8 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
+import Profile from './pages/Profile';
 import Signup from './pages/Signup';
-
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'));
@@ -24,6 +24,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login setToken={setToken} />} />
           <Route path="/dashboard" element={token ? <Dashboard /> : <Navigate to="/login" />} />
+          <Route path="/profile" element={token ? <Profile /> : <Navigate to="/login" />} />
           <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
       </div>
