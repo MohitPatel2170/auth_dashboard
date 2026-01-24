@@ -4,8 +4,6 @@ This document explains the backend APIs created for this assignment. The APIs ar
 
 Base URL: `http://localhost:5000/api`
 
----
-
 ## Authentication Endpoints
 
 ### 1. Register User
@@ -44,8 +42,6 @@ This API is used to create a new user account.
 }
 ```
 
----
-
 ### 2. Login User
 
 **POST** `/auth/login`
@@ -79,8 +75,6 @@ This API is used to log in an existing user and get a JWT token.
   "msg": "Invalid email or password"
 }
 ```
-
----
 
 ## Profile Endpoints
 
@@ -199,4 +193,4 @@ These APIs can be tested using Postman or cURL by sending requests to the above 
 ## Not Proficient
 Please suggest any documentaion changes that is required because I'm not proficient in creating perfect documentation. 
 
-## Thank You
+## Thank You--MOHIT PATEL
