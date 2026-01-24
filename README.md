@@ -50,6 +50,21 @@ A scalable web application with user authentication, profile management, and tas
 - **JWT** - Authentication tokens
 - **bcrypt** - Password hashing
 
+![Task Screenshot](frontend/src/images/task1IMG.png)
+The Dashboard Page
+
+![Task Screenshot](frontend/src/images/Task1IMG1.png)
+Profile Section which can be updated 
+
+![Task Screenshot](frontend/src/images/task1IMG2.png)
+Signup Page (error if user already exists)
+
+![Task Screenshot](frontend/src/images/task1IMG3.png)
+Name,Email and Password(Hashed) stored in MongoDB
+
+![Task Screenshot](frontend/src/images/task1IMG4.png)
+Tasks stored in MongoDB with thier Title, Desc., Status, Creation & Updation (Date & Time)
+
 ## 📁 Project Structure
 ```
 auth-dashboard/
